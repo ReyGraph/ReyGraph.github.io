@@ -29,6 +29,7 @@ nav{
 
 }
 nav .menu{
+  font-size: 10px;
   max-width: 1250px;
   margin: auto;
   display: flex;
