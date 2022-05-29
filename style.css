@@ -12,7 +12,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
- 
 }
 ::selection{
   color: #000;
@@ -22,10 +21,12 @@
 
 nav{
   position: fixed;
-  background: #1b1b1b;
+  background: #030303;
   width: 100%;
   padding: 10px 0;
   z-index: 12;
+  justify-content: space-between;
+  align-items: center;
 
 }
 nav .menu{
@@ -49,8 +50,10 @@ nav .menu{
   font-family: 'Chakra Petch', sans-serif;
 }
 .menu ul li{
+
   list-style: none;
-  margin-left: 7px;
+  margin: 0;
+  padding: 0;
   font-family: 'Chakra Petch', sans-serif;
 }
 .menu ul li:first-child{
@@ -71,7 +74,7 @@ nav .menu{
   color: black;
 }
 .img{
-  background: url('img3.jpg')no-repeat;
+
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -94,20 +97,49 @@ nav .menu{
   padding: 0 20px;
   text-align: center;
 }
-.center .title{
-  color: rgb(255, 217, 217);
-  font-size: 55px;
-  font-weight: 358;
-  margin-bottom: 79px;
+.title{
+  
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #422e8d 0%,
+    #ff9ab8 29%,
+    #5c88af 67%,
+    #87a8c4 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  font-family: 'Chakra Petch', sans-serif;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 89px;
+  font-weight: 100;
+
 }
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+
 .center .sub_title{
   color: #fff;
   font-size: 23px;
   font-weight: 100;
 }
 .center .btns{
-  margin-top: 20px;
+  margin-top: 19px;
   font-family: 'Chakra Petch', sans-serif;
+  text-decoration: none; 
 }
 .center .btns button{
   height: 55px;
@@ -141,17 +173,10 @@ nav .menu{
   font-family: 'Chakra Petch', sans-serif;
 }
 .wezo{
-    margin-top: 30px;
+    margin-top: 3px;
     font-family: 'Share Tech Mono', monospace;
     font-weight: 320;
     font-size: 16px;
     font-family: 'Chakra Petch', sans-serif;
 
-}
-.learnmore{
-  margin-top: 190px;
-  font-weight: 600;
-  font-size: 32px;
-  font-family: 'Chakra Petch', sans-serif;
-  
 }
