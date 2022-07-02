@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
@@ -12,8 +13,8 @@
 
 body {
   background: #4e54c8; 
-  background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  
-  background: linear-gradient(to right, #020235, #6d62ff);     
+  background: -webkit-linear-gradient(to right, #ff4e4e, #050018);  
+  background: linear-gradient(to right, #050404, #1b1b1b);     
   font-family: 'Montserrat', sans-serif;
   overflow: hidden;
 
@@ -169,5 +170,3 @@ nav .menu{
   font-size: 32px;
   
 }
-
-
