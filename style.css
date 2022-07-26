@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-
+        
 *{
   margin: 0;
   padding: 0;
@@ -136,28 +136,38 @@ nav .menu{
   font-size: 23px;
   font-weight: 100;
 }
-.center .btns{
-  margin-top: 19px;
-  font-family: 'Chakra Petch', sans-serif;
-  text-decoration: none; 
-}
 .center .btns button{
+    transition:all .5s ease-in-out;
+  }
+  
+.center .btns button {
   offset: auto;
   height: 55px;
   width: 170px;
   border-radius: 5px;
   border: none;
-  margin: 0 10px;
+  margin-top:  30px;
   border: 2px solid white;
   font-size: 26px;
-  font-weight: 600;
-  padding: 0 10px;
-  cursor: pointer;
-  outline: none;
-  transition: all 0.3s ease;
-  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 500;
+  font-family: 'Chakra Petch', sans-serif;  
+   
+  text-shadow: 
+  0 0 10px rgba(217, 207, 255, 0.548),
+  0 0 50px rgba(155, 223, 235, 0.473),
+  0 0 75px rgba(184, 185, 255, 0.432),
+  0 0 76px rgba(163, 172, 255, 0.411),
+  0 0 77px rgba(167, 168, 252, 0.329),
+  0 0 78px rgba(187, 255, 255, 0.507),
+  0 0 79px rgba(132, 160, 197, 0.493),
+  0 0 80px rgba(118, 181, 211, 0.404),
+  0 0 85px rgba(211, 211, 255, 0.473);
 
 }
+
+
+
+
 .center .btns button:first-child{
   color: #fff;
   background: none;
@@ -181,3 +191,4 @@ nav .menu{
     font-family: 'Chakra Petch', sans-serif;
 
 }
+
