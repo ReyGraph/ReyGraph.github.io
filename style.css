@@ -147,21 +147,15 @@ nav .menu{
   border-radius: 5px;
   border: none;
   margin-top:  30px;
-  border: 2px solid white;
+  border: 2px solid rgb(255, 235, 235);
   font-size: 26px;
   font-weight: 500;
   font-family: 'Chakra Petch', sans-serif;  
    
   text-shadow: 
-  0 0 10px rgba(217, 207, 255, 0.548),
-  0 0 50px rgba(155, 223, 235, 0.473),
-  0 0 75px rgba(184, 185, 255, 0.432),
-  0 0 76px rgba(163, 172, 255, 0.411),
-  0 0 77px rgba(167, 168, 252, 0.329),
-  0 0 78px rgba(187, 255, 255, 0.507),
-  0 0 79px rgba(132, 160, 197, 0.493),
-  0 0 80px rgba(118, 181, 211, 0.404),
-  0 0 85px rgba(211, 211, 255, 0.473);
+  0 0 10px #9a80ff8c,
+
+
 
 }
 
