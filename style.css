@@ -186,3 +186,77 @@ nav .menu{
 
 }
 
+/* Styles for mobile view */
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu-list li {
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .menu-list a {
+    text-decoration: none;
+    color: #333; /* Dark text color */
+    font-weight: bold;
+    font-size: 18px; /* Adjust font size */
+    transition: color 0.3s; /* Add smooth color transition */
+  }
+
+  .menu-list a:hover {
+    color: #007bff; /* Hover color */
+  }
+  
+  .logo {
+    display: none; /* Hide the logo on mobile */
+  }
+}
+
+/* Style the project updates container */
+.projects-container {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #f0f0f0; /* Background color for the container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Style the project updates list */
+.projects-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Text color */
+}
+
+.projects-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects-container li {
+  margin-bottom: 20px;
+}
+
+.projects-container h3 {
+  font-size: 18px;
+  color: #333; /* Text color */
+}
+
+.projects-container p {
+  font-size: 16px;
+  color: #666; /* Text color */
+  margin: 10px 0;
+}
+
