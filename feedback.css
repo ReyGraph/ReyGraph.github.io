@@ -170,3 +170,40 @@ nav .menu{
   font-size: 32px;
   
 }
+
+/* Styles for mobile view */
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu-list li {
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .menu-list a {
+    text-decoration: none;
+    color: #333; /* Dark text color */
+    font-weight: bold;
+    font-size: 18px; /* Adjust font size */
+    transition: color 0.3s; /* Add smooth color transition */
+  }
+
+  .menu-list a:hover {
+    color: #007bff; /* Hover color */
+  }
+  
+  .logo {
+    display: none; /* Hide the logo on mobile */
+  }
+}
